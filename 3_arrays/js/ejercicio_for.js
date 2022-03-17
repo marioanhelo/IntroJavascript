@@ -60,34 +60,6 @@ for(i=1; i<=pisos; i++){
       }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-//////////////////
-
-let a = 10;
-for (y = 1; y <= a; y++) {
-  for (x = 1; x <= a - y; x++) {
-    console.log(" ");
-  }
-  for (x = 1; x <= y; x++) {
-    console.log("*");
-  }
-  for (x = 1; x <= y - 1; x++) {
-    console.log("*");
-  }
-}
-
 //Mostrar en la consola la table de un número (del 1 al 10)
 // Tabla del 2
 // 1 x 2 = 2
